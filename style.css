@@ -1,0 +1,65 @@
+.over-nav{
+    margin-left: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.social-media{
+    display: flex;
+    float: right;
+    padding-bottom: 100px;
+
+
+}
+.social-media img{
+    width: 70%;
+    margin: 0%;
+}
+logo img{
+    width: 120%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid gray 2px;
+    
+}
+html{
+    overflow-x: hidden;
+}
+.lineblue div{
+    width: 25px;
+    height: 5px;
+    background-color: cyan;
+    margin: 5px;
+    
+}
+.linepink div{
+    width: 25px;
+    height: 5px;
+    background-color: magenta;
+    margin: 5px;
+    
+}
+.thingy{
+    display: flex;
+    
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(163, 58, 163);
+    visibility: hidden;
+    
+}
+.test:hover .dropdown{
+    visibility: visible;
+}
+.between{
+    padding: 5px;
+    border: solid magenta;
+    color: white;
+}
